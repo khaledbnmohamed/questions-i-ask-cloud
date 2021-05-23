@@ -11,4 +11,4 @@ Questions I ask the seniors [mostly] at cloud
 
   A2) NACL also adds an additional layer of security associated with subnets that control both inbound and outbound traffic at the subnet level.
 
-![](K:\questions-i-ask-cloud\Screenshot 2021-05-23 220447.png)
+![](q2.png)
