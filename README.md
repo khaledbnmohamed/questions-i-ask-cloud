@@ -28,4 +28,5 @@ Questions I ask the seniors [mostly] at cloud
 # Good Resources
 
 - https://www.javatpoint.com/aws-nacl-vs-security-group
-- [A good article talking about best practices and tools to boost your CloudFormation experience](https://sanderknape.com/2018/08/two-years-with-cloudformation-lessons-learned/) 
+- [A good article talking about best practices and tools to boost your CloudFormation experience](https://sanderknape.com/2018/08/two-years-with-cloudformation-lessons-learned/)
+- [AWS: Error accessing the Internet with a custom Network ACL](https://serverfault.com/questions/821315/aws-error-accessing-the-internet-with-a-custom-network-acl)
