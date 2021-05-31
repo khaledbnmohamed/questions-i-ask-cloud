@@ -5,7 +5,7 @@ Questions I ask the seniors [mostly] at cloud
 
 * **Q1**) Can I use GetAtt Param.parent ex: use `!GetAttr (!Ref MyChosenSubnet).Vpc` ?
 
-  A1) 
+  A1)
 
   **Q2**)  *diff bet NACL and Securty groups and add NACL*
 
@@ -21,6 +21,21 @@ Questions I ask the seniors [mostly] at cloud
 
   A4) All commands in s3api can be done in s3 because s3 uses s3api
 
+  **Q5**) :red_circle: *Can't connect to Windows RDP for EC2 instance althought the credentials are right*
+  ![](q5.png)
+
+  **A5**) Use "Another Account" and put:
+
+    * User name ( any of these ):
+      ```
+      .\Administrator
+      localhost\Administrator
+      127.0.0.1\Administrator
+      public-ip\Administrator
+      public-dns\Administrator
+    ```
+
+    * Password : `password decrypted from your key`
 # General Notes and Hints
 
 - List all within the s3 bucket by using --recursive
