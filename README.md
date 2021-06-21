@@ -36,6 +36,14 @@ Questions I ask the seniors [mostly] at cloud
     ```
 
     * Password : `password decrypted from your key`
+
+
+
+**Q6**)  *My CloudFormation stuck at update in progress when using custom resource*
+
+  **A6**) I was using cfn-response package which is only available if the lambda is inline in the zipfile property but NOT IN A SEPRATE FILE uploaded to S3
+
+  ![](q6.png)
 # General Notes and Hints
 
 - List all within the s3 bucket by using --recursive
